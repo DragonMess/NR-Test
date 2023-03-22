@@ -1,0 +1,22 @@
+{
+  "name": "nrtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "nodemon -L app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "lodash":"4.17.20",
+      "newrelic": "^9.10.2",
+      "nodemon": "^2.0.20",
+      "pino": "^8.11.0",
+      "pino-http": "^8.3.3"
+  }
+}
