@@ -1,3 +1,10 @@
+
+#This line allows the agent to run without a configuration file.
+ENV NEW_RELIC_DISTRIBUTED_TRACING_ENABLED=true \
+#send the logs
+NEW_RELIC_LOG=stdout
+
+
 # specify a parent image (node17 and linnux alpine)
 FROM node:17-alpine
 
